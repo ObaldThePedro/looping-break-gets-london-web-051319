@@ -1,13 +1,11 @@
 
 def levitation_quiz
-	#your code here
-	loop do
-	  puts "What is the spell that enacts levitation?"
-	  answer = gets
-	  if answer == "Wingardium Leviosa"
-	    break
-	 end
-	 puts "You passed the quiz!"
+  loop do
+    puts "What is the spell that enacts levitation?"
+    answer = gets
+	  break if answer == "Wingardium Leviosa"
+	  end
+	  puts "You passed the quiz!"
 end
 
-
+levitation_quiz
