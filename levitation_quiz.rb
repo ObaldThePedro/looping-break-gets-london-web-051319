@@ -8,7 +8,6 @@ def levitation_quiz
 	    break
 	  end
 	  puts "You passed the quiz!"
-	  
 end
 
 
